@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "25760405045",
+    "firebase_url": "https://fyptesting-2ce64.firebaseio.com",
+    "project_id": "fyptesting-2ce64",
+    "storage_bucket": "fyptesting-2ce64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25760405045:android:e10653bb6d479c438bc37c",
+        "android_client_info": {
+          "package_name": "com.example.finalyearproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25760405045-fo733vat8moeer3psd05j6jeh65f8l8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT1bT7KcK0ueOXP8VP3n1hZ15u6Jgl19s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25760405045-fo733vat8moeer3psd05j6jeh65f8l8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25760405045:android:cf6f07ea8646b4698bc37c",
+        "android_client_info": {
+          "package_name": "com.example.fypapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25760405045-fo733vat8moeer3psd05j6jeh65f8l8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT1bT7KcK0ueOXP8VP3n1hZ15u6Jgl19s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25760405045-fo733vat8moeer3psd05j6jeh65f8l8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
