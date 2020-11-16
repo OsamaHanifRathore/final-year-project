@@ -1,4 +1,6 @@
+import 'package:finalyearproject/screens/WaterFlow.dart';
 import 'package:finalyearproject/screens/WaterTankLevel.dart';
+import 'package:finalyearproject/screens/WaterTap.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +16,7 @@ class MainScreen extends StatelessWidget {
               gradient: LinearGradient(
                   begin: Alignment.topRight,
                   end: Alignment.bottomLeft,
-                  colors: [Color(0xff387BCC), Color(0xff8CB2C1)])),
+                  colors: [Color(0xff387BCC), Color(0xff01A9E0)])),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
@@ -64,7 +66,7 @@ class MainScreen extends StatelessWidget {
                                     Navigator.of(context).push(MaterialPageRoute(builder: (context)=> WaterTankLevel()));
                                   },
                                   child: Image(
-                                    image: AssetImage('images/white.png'),
+                                    image: AssetImage('images/watertank.png'),
                                   ),
                                 ),
                               ),
@@ -76,9 +78,16 @@ class MainScreen extends StatelessWidget {
                           child: Column(
                             children: <Widget>[
                               ClipOval(
-                                child: Image(
-                                  image: AssetImage('images/white.png'),
+                                child: GestureDetector(
+                                  onTap:(){
+                                    print('Hello world');
+                                    Navigator.of(context).push(MaterialPageRoute(builder: (context)=> WaterFlow()));
+                                  },
+                                  child: Image(
+                                    image: AssetImage('images/leakage.png'),
+                                  ),
                                 ),
+
                               ),
                               Text('Water Flow',style: TextStyle(color: Colors.white, fontSize: 15)),
                             ],
@@ -88,8 +97,14 @@ class MainScreen extends StatelessWidget {
                           child: Column(
                             children: <Widget>[
                               ClipOval(
-                                child: Image(
-                                  image: AssetImage('images/white.png'),
+                                child: GestureDetector(
+                                  onTap:(){
+                                    print('Hello world');
+                                    Navigator.of(context).push(MaterialPageRoute(builder: (context)=> WaterTap()));
+                                  },
+                                  child: Image(
+                                    image: AssetImage('images/tap.png'),
+                                  ),
                                 ),
                               ),
                               Text('Water Tap Control',style: TextStyle(color: Colors.white, fontSize: 15)),
